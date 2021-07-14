@@ -1,0 +1,145 @@
+/* style of body */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+/* style of header */
+header{
+
+    /* display: flex; */
+    /* padding: 60px; */
+    /* text-align: start; */
+    background-color: #2D25A0;
+    /* justify-content: space-between; */
+}
+.container{
+    margin: 0  150px;
+}
+.header-baner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    /* padding-top: 100px; */
+}
+.header-heading .about{
+    display: inline-block;
+    width: 485px;
+    height: 230px;
+    /* margin-left: 150px; */
+    /* top: 216px; */
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+#watchlive{
+    /* margin-left: 150px; */
+}
+.logout-point{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+.baner-pic img{
+    /* display: inline-block; */
+    
+    width: 556.01px;
+    height: 438px;
+    /* margin-left: 150px; */
+}
+.baner-pic:hover{
+    animation: bounce infinite 5s;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+ }
+
+/* players style */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+}
+.player{
+    width: 330px;
+    height: 400px;
+    box-shadow: 0px 0px 40px  gainsboro;
+}
+.players-container{
+    align-items: center;
+    width: 1050px;
+    background-color: #FFFFFF;
+    margin-top: 60px;
+    margin-left: 250px;
+}
+
+.player .player-banner img{
+    width: 300px;
+    height: 256px;
+    padding-top: 14px;
+    padding-left: 15px;
+}
+.player-info{
+    margin-left: 10px;
+
+    /*------------------ 
+    player style end 
+    ------------------*/
+
+    /*-------------
+     footer 
+     --------------*/
+}
+.footer img{
+    width: 483.87px;
+    height: 110px;
+    padding-left: 450px;
+    padding-top: 30px;
+}
+.awesome-icon{
+    width: 370px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 700px;
+}
+.icon a i{
+    font-size: 20px;
+    margin: 0px 8px;
+    color: #969BAB;
+}
+.copyright{
+    font-size: 18px;
+    padding-left: 650px;
+}
+
+/*------------------
+ Media Queries 
+ ------------------*/
+
+ /*-----------------
+  Mobile Devices
+ -------------------*/
+
+ @media only screen and(max-width:688px) {
+    .container{
+        margin: 0  15px;
+    }
+    .baner-pic img{
+        width: 300px;
+        height: 250px;
+    }
+    .header-heading .about{
+        font-size: 30px;
+    }
+ }
