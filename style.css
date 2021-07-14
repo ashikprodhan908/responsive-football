@@ -10,12 +10,7 @@ html{
 }
 /* style of header */
 header{
-
-    /* display: flex; */
-    /* padding: 60px; */
-    /* text-align: start; */
     background-color: #2D25A0;
-    /* justify-content: space-between; */
 }
 .container{
     margin: 0  150px;
@@ -26,21 +21,15 @@ header{
     align-items: center;
     justify-content: space-between;
     min-height: 100vh;
-    /* padding-top: 100px; */
 }
 .header-heading .about{
     display: inline-block;
     width: 485px;
     height: 230px;
-    /* margin-left: 150px; */
-    /* top: 216px; */
     font-weight: bold;
     font-size: 64px;
     line-height: 80px;
     color: #FFFFFF;
-}
-#watchlive{
-    /* margin-left: 150px; */
 }
 .logout-point{
     color: #FFFFFF;
@@ -48,12 +37,9 @@ header{
     padding: 10px 40px;
     text-decoration: none;
 }
-.baner-pic img{
-    /* display: inline-block; */
-    
+.baner-pic img{   
     width: 556.01px;
     height: 438px;
-    /* margin-left: 150px; */
 }
 .baner-pic:hover{
     animation: bounce infinite 5s;
